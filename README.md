@@ -48,11 +48,12 @@ The **First Aid Tutor** is a **Retrieval-Augmented Generation (RAG)** chatbot de
 ## 📥 How to Run Locally
 You can run the chatbot locally using the following commands:
 
-```bash
+```
 git clone https://github.com/SYEDFAIZAN1987/First-Aid-Tutor
 cd First-Aid-Tutor
 pip install -r requirements.txt
-python raggpt.py  # Runs the chatbot
+python raggpt.py
+```
 
 ## 📊 Evaluation Metrics
 The chatbot's responses were evaluated using **Precision, Recall, F1 Score, and Cosine Similarity**.
