@@ -32,7 +32,7 @@ The chatbot's responses were evaluated using **Precision, Recall, F1 Score, and 
 | Recall    | **1.00** |
 | F1 Score  | **1.00** |
 
-> 🔍 Full evaluation results are available in **[`evaluation_results.txt`](./evaluation_results.txt)**.
+> 🔍 Full evaluation results are available in **[`evaluation_results.txt`](https://github.com/SYEDFAIZAN1987/First-Aid-Tutor/blob/main/evaluation_results.txt)**.
 
 ## 📈 Evaluation Visualization
 Below is a graphical representation of the chatbot’s performance.
