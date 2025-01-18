@@ -37,7 +37,7 @@ The chatbot's responses were evaluated using **Precision, Recall, F1 Score, and 
 ## 📈 Evaluation Visualization
 Below is a graphical representation of the chatbot’s performance.
 
-![Evaluation Graph](./evaluation_plot.png)
+![Evaluation Graph](https://github.com/SYEDFAIZAN1987/First-Aid-Tutor/blob/main/evaluation_plot.png)
 
 ---
 
