@@ -28,6 +28,31 @@ This repository contains the **codebase** for the `First Aid Assistant` chatbot,
 > - The uploaded **FIRST AID PDF** that forms the basis of the Retrieval-Augmented Generation (RAG) process is an **official course material** and the property of **Mysore Medical College and Research Institute**.
 
 ---
+# 🚑 First Aid Tutor - RAG Chatbot
+
+The **First Aid Tutor** is a **Retrieval-Augmented Generation (RAG)** chatbot designed to assist **medical and paramedical students** in learning **first-aid protocols**. It is strictly trained on a **verified first-aid guide** and only provides information present in the **First Aid PDF**.
+
+## 🎯 Features
+✅ **Evidence-Based Responses** - The chatbot only retrieves and generates answers based on the **First Aid PDF**.  
+✅ **User-Friendly Interface** - Developed using **Gradio**, featuring a modern and intuitive UI.  
+✅ **Medical Education Research** - Used for evaluating **RAG efficacy in medical education**.  
+
+## 🔬 How It Works
+- Uses **TF-IDF + Cosine Similarity** for retrieving contextually relevant information.  
+- Queries are answered based strictly on **verified medical content**.  
+- Integrated with **Gradio UI** for an easy-to-use chatbot experience.  
+
+## 📌 Live Demo
+🚀 **[Try the First Aid Tutor Chatbot](https://huggingface.co/spaces/DrSyedFaizan/First_Aid_Assistant)**
+
+## 📥 How to Run Locally
+You can run the chatbot locally using the following commands:
+
+```bash
+git clone https://github.com/SYEDFAIZAN1987/First-Aid-Tutor
+cd First-Aid-Tutor
+pip install -r requirements.txt
+python raggpt.py  # Runs the chatbot
 
 ## 📊 Evaluation Metrics
 The chatbot's responses were evaluated using **Precision, Recall, F1 Score, and Cosine Similarity**.
