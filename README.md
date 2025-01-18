@@ -16,6 +16,7 @@ metrics:
 ![First Aid Tutor](https://github.com/SYEDFAIZAN1987/First-Aid-Tutor/blob/main/RAGGPT%20UI.png)
 
 ## 📘 About the Project
+First Aid Tutor is an AI-powered chatbot designed to evaluate the efficacy of Retrieval-Augmented Generation (RAG) in medical education for paramedical and medical students. It provides first-aid guidance based on medical literature to assess learning outcomes and response accuracy.
 
 
 
