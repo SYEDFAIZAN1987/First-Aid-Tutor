@@ -11,10 +11,18 @@ metrics:
 - recall
 - f1
 ---
+# 🚗 Used Car Sales Analysis
 
+![Used Car Sales Analysis](https://github.com/SYEDFAIZAN1987/Used-Car-Sales-Analysis/blob/main/pic%201%20used%20car.jpg)
+
+## 📘 About the Project
+
+This project analyzes a dataset of **8,128 used car sales records** from **CarDekho.com**, India's largest online used car vendor. Spanning vehicles manufactured between 1994 and 2020, the dataset contains both numerical and categorical variables related to car specifications, sales trends, and market performance.
+
+The project employs **Exploratory Data Analysis (EDA)**, advanced **feature engineering**, and **regression modeling** to identify key factors affecting car prices and generate actionable insights for used car buyers and sellers
 # 🏥 First Aid Assistant - Evaluation Results
 
-This repository contains the **evaluation results** for the `First Aid Assistant` chatbot, tested on **10 first-aid-related questions**.
+This repository contains the **codebase** for the `First Aid Assistant` chatbot, tested on **10 first-aid-related questions**.
 
 ## 📢 **Ownership and Attribution**
 > **⚠️ Disclaimer:**  
