@@ -61,19 +61,12 @@ The chatbot's responses were evaluated using **faithfulness, answer relevancy, c
 
 | Metric               | Score  |
 |----------------------|--------|
-| **Faithfulness**        | **0.0900** |
+
 | **Answer Relevancy**    | **0.9609** |
 | **Context Recall**      | **1.0000** |
-| **Answer Correctness**  | **0.2689** |
 | **Semantic Similarity** | **0.7756** |
 
-🔍 **[View Full Evaluation Report on WandB](https://api.wandb.ai/links/drsyedfaizan1987-northeastern-university/xrlfa4vq)**
 
----
-
-## 📈 Evaluation Visualization
-### 📊 Bar Chart of Evaluation Metrics  
-![Heatmap](https://github.com/SYEDFAIZAN1987/First-Aid-Tutor/blob/main/metrics.png)
 
 
 
