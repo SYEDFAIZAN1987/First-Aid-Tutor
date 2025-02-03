@@ -47,40 +47,82 @@ The **First Aid Tutor** is a **Retrieval-Augmented Generation (RAG)** chatbot de
 ## 📌 Live Demo
 🚀 **[Try the First Aid Tutor Chatbot](https://huggingface.co/spaces/DrSyedFaizan/First_Aid_Assistant)**
 
-## 📥 How to Run Locally
-You can run the chatbot locally using the following commands:
-
-```
-git clone https://github.com/SYEDFAIZAN1987/First-Aid-Tutor
-cd First-Aid-Tutor
-pip install -r requirements.txt
-python raggpt.py
-```
-## 📊 Evaluation Metrics
-The chatbot's responses were evaluated using **faithfulness, answer relevancy, context recall, answer correctness, and semantic similarity**.
-
-| Metric               | Score  |
-|----------------------|--------|
-
-| **Answer Relevancy**    | **0.9609** |
-| **Context Recall**      | **1.0000** |
-| **Semantic Similarity** | **0.7756** |
+---
+tags:
+- chatbot
+- evaluation
+- first-aid
+license: mit
+language:
+- en
+metrics:
+- faithfulness
+- answer_relevancy
+- context_recall
+- answer_correctness
+- semantic_similarity
+---
 
 
 
+# 🩺 First Aid Assistant - Model Evaluation Report
 
+This repository also presents the evaluation results of the **First Aid Assistant** chatbot, which provides first aid guidance based on common emergency conditions. The model has been evaluated using the **RAGAS** framework with metrics that assess the quality of the generated answers.
+
+## 📊 **Evaluation Metrics**
+
+The chatbot was evaluated based on the following RAGAS metrics:
+
+- **Answer Relevancy:** Measures how relevant the response is to the user's question.
+- **Answer Correctness:** Compares the generated response to the ground truth to assess factual correctness.
+- **Semantic Similarity:** Evaluates how semantically similar the generated answer is to the reference answer.
 
 ---
 
-## 📖 Evaluation Method
-- Used **RAGAS evaluation framework with GPT-4** to assess **answer correctness, relevancy, and factual consistency**.
-- Evaluated on **10 first-aid-related questions**, covering:
-  - ✅ High fever in infants  
-  - ✅ Low blood sugar treatment  
-  - ✅ First-aid steps for burns, seizures, choking, etc.  
-- **Expected answers** were sourced from **medical literature**.
+## 🚀 **Performance Summary**
+
+| **Metric**               | **Average Score** |
+|:--------------------------|:-----------------:|
+| **Answer Relevancy**      | **0.94**          |
+| **Answer Correctness**    | **0.91**          |
+| **Semantic Similarity**   | **0.97**          |
 
 ---
+
+## 📈 **Detailed Results**
+
+Here’s a snapshot of the evaluation for some sample questions:
+
+| **Question**                                            | **Answer Relevancy** | **Answer Correctness** | **Semantic Similarity** |
+|---------------------------------------------------------|----------------------|------------------------|-------------------------|
+| What are the first aid measures for high fever in infants? | 0.93                 | 0.85                   | 0.98                    |
+| What are the signs and symptoms of low blood sugar?       | 0.85                 | 0.98                   | 0.94                    |
+| What does RICE stand for in first aid treatment?          | 0.99                 | 1.00                   | 0.98                    |
+| What is the treatment of snake bite?                      | 0.96                 | 1.00                   | 0.98                    |
+| How do you provide first aid for choking?                 | 0.96                 | 0.97                   | 0.98                    |
+
+---
+
+## 📋 **Key Insights**
+
+- The chatbot performed exceptionally well in **semantic similarity** (average score of **0.97**), indicating that responses are closely aligned with the ground truth.
+- **Answer correctness** is strong overall but showed slight variability, suggesting room for improvement in handling complex queries.
+- The **relevancy** of responses remained consistently high, reflecting the model's ability to address user questions effectively.
+
+---
+
+## 📝 **Evaluation Artifacts**
+
+- **RAGAS Evaluation Report:** [View Full Report](https://huggingface.co/spaces/DrSyedFaizan/FirstAidTutor_RAGAS_Evaluation)
+
+---
+
+## 🌟 **Conclusion**
+
+The **First Aid Assistant** demonstrates reliable performance in answering first aid-related queries with high semantic accuracy and relevancy. Continuous improvement in factual correctness will further enhance its capability to provide life-saving information in emergency situations.
+
+---
+
 
 ## 📥 Download & Re-Evaluate
 You can **re-evaluate the chatbot** by running the following:
@@ -98,5 +140,7 @@ python eval.py
 🔗 **Hugging Face Repo**: [First_Aid_Assistant_Evaluation](https://huggingface.co/DrSyedFaizan/First_Aid_Assistant_Evaluation)
 
 📩 **For collaborations, inquiries, or improvements, feel free to contribute or reach out!**
+
+
 
 
